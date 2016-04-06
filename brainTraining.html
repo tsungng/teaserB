@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Brain Picker</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script type="text/javascript" src="teaser.js"></script>   
+          <script type="text/javascript">
+              alert(document.cookie);
+              </script> 
+    </head> 
+    <body>
+        <div class ="container-fluid">
+            <noscript>Sorry, your browser does not support JavaScript!</noscript>
+            <form>
+                <p>Enter the number of rows: <input type="text" name ="rows" id = "rows"/></p> 
+                <p>Enter the number of columns: <input type="text" name ="columns" id = "columns"/></p>
+                <input onclick = "return getNums();" type="submit" value ="Submit"/>
+            </form>
+        </div>
+    </body>
+</html>
